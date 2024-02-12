@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Chewy&display=swap');
+  .babydargon-footer{
+    animation: footerbabydargon 10s linear infinite;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .min-h-110{
+    min-height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
+  .animation-hero{
+    animation: babydargon 8s linear infinite;
   }
-}
+  @keyframes babydargon {
+    0%{
+      right: 39%;
+      bottom: 18%;
+    }
+    25%{
+      right: 25%;
+      bottom: 16%;
+    }
+    50%{
+      right: 15%;
+      bottom: 14%;
+    }
+    75%{
+      right: 25%;
+      bottom: 16%;
+    }
+    100%{
+      right: 39%;
+      bottom: 18%;
+    }
+  }
+  @keyframes footerbabydargon {
+    0%{
+      transform: translateX(0%) rotateY(0deg);
+    }
+    10%{
+      transform: translateX(-50%) rotateY(0deg);
+    }
+    20%{
+      transform: translateX(-100%) rotateY(0deg);
+    }
+    30%{
+      transform: translateX(-150%) rotateY(0deg);
+    }
+    40%{
+      transform: translateX(-200%) rotateY(0deg);
+    }
+    50%{
+      transform: translateX(-250%) rotateY(0deg);
+    }
+    55%{
+      transform: translateX(-225%) rotateY(180deg);
+    }
+    60%{
+      transform: translateX(-200%) rotateY(180deg);
+    }
+    70%{
+      transform: translateX(-150%) rotateY(180deg);
+    }
+    80%{
+      transform: translateX(-100%) rotateY(180deg);
+    }
+    90%{
+      transform: translateX(-50%) rotateY(180deg);
+    }
+    100%{
+      transform: translateX(-0%) rotateY(180deg);
+    }
+    
+  }
+  @media (max-width: 767px) {
+    .mobile-view {
+      position: absolute;
+      top: 0%;
+      max-width: 450px;
+      height: 100%;
+      justify-content: center;
+      backdrop-filter: blur(50px);
+      flex-direction: column;
+      width: 100%;
+      transition: all 300ms linear;
+      z-index: 5;
+    }
+    .overflow_hidden{
+      overflow: hidden;
+    }
+  }
+ @media (min-width:768px) {
+  @keyframes footerbabydargon {
+    0%{
+      transform: translateX(0%) rotateY(0deg);
+    }
+    10%{
+      transform: translateX(-70%) rotateY(0deg);
+    }
+    20%{
+      transform: translateX(-140%) rotateY(0deg);
+    }
+    30%{
+      transform: translateX(-210%) rotateY(0deg);
+    }
+    40%{
+      transform: translateX(-280%) rotateY(0deg);
+    }
+    50%{
+      transform: translateX(-350%) rotateY(0deg);
+    }
+    55%{
+      transform: translateX(-310%) rotateY(180deg);
+    }
+    60%{
+      transform: translateX(-280%) rotateY(180deg);
+    }
+    70%{
+      transform: translateX(-210%) rotateY(180deg);
+    }
+    80%{
+      transform: translateX(-140%) rotateY(180deg);
+    }
+    90%{
+      transform: translateX(-70%) rotateY(180deg);
+    }
+    100%{
+      transform: translateX(-0%) rotateY(180deg);
+    }
+    
+  }
+ }
+ @media (min-width:1024px) {
+  @keyframes footerbabydargon {
+    0%{
+      transform: translateX(0%) rotateY(0deg);
+    }
+    10%{
+      transform: translateX(-100%) rotateY(0deg);
+    }
+    20%{
+      transform: translateX(-200%) rotateY(0deg);
+    }
+    30%{
+      transform: translateX(-300%) rotateY(0deg);
+    }
+    40%{
+      transform: translateX(-400%) rotateY(0deg);
+    }
+    50%{
+      transform: translateX(-500%) rotateY(0deg);
+    }
+    55%{
+      transform: translateX(-450%) rotateY(180deg);
+    }
+    60%{
+      transform: translateX(-400%) rotateY(180deg);
+    }
+    70%{
+      transform: translateX(-300%) rotateY(180deg);
+    }
+    80%{
+      transform: translateX(-200%) rotateY(180deg);
+    }
+    90%{
+      transform: translateX(-100%) rotateY(180deg);
+    }
+    100%{
+      transform: translateX(-0%) rotateY(180deg);
+    }
+    
+  }
+ }
