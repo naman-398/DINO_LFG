@@ -13,7 +13,8 @@ const PAgenav = () => {
     }
   }
     return (
-        <div className=' max-w-[1156px] mx-auto px-3 pt-[28px] relative z-[1]'>
+
+        <div className=' max-w-[1156px] mx-auto px-3 pt-[28px]'>
             <div className=' bg-[#FFF] border-b-[4px] border-solid max-w-[1132px] mx-auto p-[4px_7px_8px_1px] rounded-[61.1px] w-full border-b-[#000000]'>
                 <div className=' flex items-center justify-between'>
                     <img src={pagelogo} alt="" className=' ps-[23px] cursor-pointer max-w-[120px] 576:max-w-[158px] ' />
