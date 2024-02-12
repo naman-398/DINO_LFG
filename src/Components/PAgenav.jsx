@@ -19,29 +19,29 @@ const PAgenav = () => {
                     <img src={pagelogo} alt="" className=' ps-[23px] cursor-pointer max-w-[120px] 576:max-w-[158px] ' />
                     <div className=' flex items-center gap-[15px] 992:gap-[136px]'>
                     <ul className={`${show === true ? "left-0" : "left-[-100%]"}  flex items-center gap-[15px] 992:gap-[28px] mobile-view`}>
-                            <li><a href="" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>About</a></li>
-                            <li><a href="" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>Tokenomic</a></li>
-                            <li><a href="" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>Roadmap</a></li>
-                            <li><a href="" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>FAQ</a></li>
+                            <li><a href="#about" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>About</a></li>
+                            <li><a href="#toke" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>Tokenomic</a></li>
+                            <li><a href="#roadmap" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>Roadmap</a></li>
+                            <li><a href="#faq" className=' font-chewy text-[18px] font-normal text-[#000] leading-[23.52px]'>FAQ</a></li>
                             <li className=' flex items-center gap-[5px]'>
-                            <a href='' className=' 576:hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full flex justify-center items-center'>
+                            <a href='https://twitter.com/login' className=' 576:hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full flex justify-center items-center'>
                                 <Twitter />
                             </a>
-                            <a  href='' className=' 576:hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full flex justify-center items-center'>
+                            <a  href="https://support.discord.com/hc/en-us/community/posts/360056220432-Login" className=' 576:hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full flex justify-center items-center'>
                                 <Discord />
                             </a>
-                            <a href='' className=' 576:hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full flex justify-center items-center'>
+                            <a href="https://www.instagram.com/" className=' 576:hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full flex justify-center items-center'>
                                 <Insta />
                             </a></li>
                         </ul>
                         <div className=' flex items-center gap-[8px]'>
-                            <a href='' className=' hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full 576:flex justify-center items-center'>
+                            <a href='https://twitter.com/login' className=' hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full 576:flex justify-center items-center'>
                                 <Twitter />
                             </a>
-                            <a  href='' className=' hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full 576:flex justify-center items-center'>
+                            <a  href="https://support.discord.com/hc/en-us/community/posts/360056220432-Login" className=' hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full 576:flex justify-center items-center'>
                                 <Discord />
                             </a>
-                            <a href='' className=' hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full 576:flex justify-center items-center'>
+                            <a href="https://www.instagram.com/" className=' hidden h-[28px] 992:h-[37px] w-[28px] 992:w-[37px] border-[1px] border-solid border-[#000] rounded-full 576:flex justify-center items-center'>
                                 <Insta />
                             </a>
                             <button className=' bg-[url(../src/Assets/Images/navbtn.webp)] p-[6px_20px_10px_20px] bg-100% 450:bg-[unset] 450:p-[11px_36px_19px_36px] font-chewy text-[14px] 450:text-[18px] font-normal text-[#000] leading-[23.52px]'>Join Now</button>

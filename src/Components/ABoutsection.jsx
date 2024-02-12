@@ -3,7 +3,7 @@ import dinolpg from "../Assets/Images/DinoLFG.webp";
 import s2treedargon from "../Assets/Images/s2treedargon.webp";
 const ABoutsection = () => {
     return (
-        <div className=' bg-[#09655A] md:pt-[35px] 576:pt-[15px] 992:pt-[76px] pb-[17px] relative '>
+        <div id='about' className=' bg-[#09655A] md:pt-[35px] 576:pt-[15px] 992:pt-[76px] pb-[17px] relative '>
             <img src={s2treedargon} alt="" className=' absolute right-0 bottom-[-20%] z-[1] max-w-[220px] opacity-60 md:opacity-100 md:max-w-[493]' />
             <div className=' max-w-[1140px] mx-auto px-3 relative z-[2]'>
                 <div className=' justify-center font-chewy font-normal text-[48px] 450:text-[64px] leading-[normal] 576:leading-[83.64px] text-[#fff] flex items-center gap-[10px] 576:gap-[22px] mx-auto'   data-aos="zoom-in">About
