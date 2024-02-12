@@ -19,8 +19,8 @@ const Tokenomicssection = () => {
             className="relative toke_bg bg-no-repeat bg-center  mt-[-2px] bg-[#0a4740]"
         >
             <img src={s2tree} alt="" className=' absolute left-0 top-[-12%] z-[1] hidden md:block' />
-            <img src={s3elipsetop} alt="" className='absolute object-cover top-0 w-100 left-0' />
-            <img src={s3elipsebottom} alt="" className='absolute object-cover bottom-0 w-100 left-0' />
+            <img src={s3elipsetop} alt="" className='absolute object-cover top-0 w-100 left-0 w-full' />
+            <img src={s3elipsebottom} alt="" className='absolute object-cover bottom-0 w-100 left-0 w-full' />
             <div className=" container mx-auto max-w-[1132px] px-3 pb-[120px] pt-[50px] md:py-[300px]  ]">
                 <h2
                     data-aos="zoom-in"

@@ -71,7 +71,7 @@ const Ulitiltysection = () => {
         </div>
       </div>
       <img
-        className="absolute object-cover top-0 w-100 left-0"
+        className="absolute object-cover top-0 w-100 left-0 w-full"
         src={utility_uppr}
         alt="ellipse"
       />
