@@ -19,22 +19,32 @@
     0%{
       right: 39%;
       bottom: 18%;
+      transform: rotateY(0deg);
     }
     25%{
       right: 25%;
       bottom: 16%;
+      transform: rotateY(0deg);
     }
     50%{
       right: 15%;
       bottom: 14%;
+      transform: rotateY(0deg);
+    }
+    50.1%{
+      right: 15%;
+      bottom: 14%;
+      transform: rotateY(180deg);
     }
     75%{
       right: 25%;
       bottom: 16%;
+      transform: rotateY(180deg);
     }
     100%{
       right: 39%;
       bottom: 18%;
+      transform: rotateY(180deg);
     }
   }
   @keyframes footerbabydargon {
