@@ -11,7 +11,7 @@ const Herosection = () => {
     return (
         <div className=' bg-[url(../src/Assets/Images/hersectionbg.webp)] bg-cover bg-left md:bg-100% md:bg-center min-h-[85vh] md:min-h-110 bg-no-repeat relative overflow-hidden '>
             <img src={cloud1} alt="" className=' left-0 top-[20%] absolute z-0 576:max-w-[177px] max-w-[100px]'/>
-            <img src={cloud2} alt="" className=' right-[1.5%] top-[10%] absolute z-[0] 576:max-w-[172px] max-w-[100px]'/>
+            <img src={cloud2} alt="" className=' right-[1.5%] top-[12%] lg:top-[10%] absolute z-[0] 576:max-w-[172px] max-w-[100px]'/>
             <img src={herobabydargon} alt="" className=' absolute right-[7%] babydargon-footer bottom-[11%] z-[1] max-w-[120px] 576:max-w-[211px] ' />
             <img src={herobabydargon2} alt="" className=' absolute right-[39%] bottom-[18%] z-0 animation-hero hidden md:block' />
             <PAgenav />

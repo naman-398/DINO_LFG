@@ -6,6 +6,9 @@
   .babydargon-footer{
     animation: footerbabydargon 10s linear infinite;
   }
+.navsvgparent:hover .navsvg{
+  filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+}
   .min-h-110{
     min-height: 100vh;
   }
