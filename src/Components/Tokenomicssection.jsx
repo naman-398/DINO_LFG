@@ -36,7 +36,7 @@ const Tokenomicssection = () => {
                         alt=""
                     />
                     <img
-                        className="object-cover  animate-flip pt-[-50px] hidden md:block md:max-w-[330px] w-full  xl:max-w-[590px] lg_2:max-w-[400px]"
+                        className="object-cover  animate-flip min-[1300px]:mt-[-50px] hidden md:block md:max-w-[330px] w-full  xl:max-w-[590px] lg_2:max-w-[400px]"
                         src={toke_card}
                         alt=""
                     />

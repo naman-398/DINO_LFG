@@ -13,7 +13,6 @@ const PAgenav = () => {
     }
   }
     return (
-
         <div className=' max-w-[1156px] mx-auto px-3 pt-[28px]'>
             <div className=' bg-[#FFF] border-b-[4px] border-solid max-w-[1132px] mx-auto p-[4px_7px_8px_1px] rounded-[61.1px] w-full border-b-[#000000]'>
                 <div className=' flex items-center justify-between'>
@@ -51,7 +50,6 @@ const PAgenav = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

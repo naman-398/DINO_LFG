@@ -6,11 +6,16 @@ const Roadmapsection = () => {
   return (
     <div>
     <div id="roadmap" className=" relative mt-[-2px] bg-[#09655a]">
-      <div className=" relative container mx-auto max-w-[1132px] px-3 overflow-hidden">
+    <h2
+          className="text-white font-normal mb-[40px] xs_1:mb-0 xs_1:hidden block font-chewy text-[64px] text-center leading-[84px] pb-6 md:pb-[97px]"
+        >
+          Roadmap
+        </h2>
+      <div className=" relative container mx-auto  max-w-[1132px] px-3 overflow-hidden">
         <h2
           data-aos="zoom-in"
           data-aos-duration="2000"
-          className="text-white font-normal font-chewy text-[64px] text-center leading-[84px] pb-6 md:pb-[97px]"
+          className="text-white hidden xs_1:block font-normal font-chewy text-[64px] text-center leading-[84px] pb-6 md:pb-[97px]"
         >
           Roadmap
         </h2>
@@ -100,13 +105,13 @@ const Roadmapsection = () => {
           alt=""
         />
       </div>
-      <span className="border-[#0a4740] block xs_1:hidden  !border-dashed border-[4px] z-30 h-[61%] absolute left-3 top-[20%]"></span>{" "}
+      <span className="border-[#0a4740] block xs_1:hidden  !border-dashed border-[4px] z-30 h-[57%] absolute left-3 top-[22%]"></span>{" "}
       <span className="rounded-full w-[20px] block xs_1:hidden h-[20px] bg-[#FBA11D] left-[1.4%] z-40 top-[24%] absolute"></span>
       <span className="rounded-full w-[20px]  block xs_1:hidden h-[20px] bg-[#8EC627] left-[1.4%] z-40 top-[40%] absolute"></span>
       <span className="rounded-full w-[20px]  block xs_1:hidden h-[20px] bg-[#D45B07] left-[1.4%] z-40 bottom-[38%] absolute"></span>
       <span className="rounded-full w-[20px] block xs_1:hidden h-[20px] bg-[#23aaac] left-[1.4%] z-40 bottom-[22%] absolute"></span>
       <img
-        className="top-[10%] object-cover  animate-flip block xs_1:hidden left-0 max-w-[100px] max-h-[90px] absolute"
+        className="top-[14%] object-cover  animate-flip block xs_1:hidden left-0 max-w-[100px] max-h-[90px] absolute"
         src={plane}
         alt=""
       />
